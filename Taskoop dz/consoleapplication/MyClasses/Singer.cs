@@ -3,27 +3,16 @@ namespace consoleapplication.MyClasses // Note: actual namespace depends on the 
 
     public class Singer
     {
-        public string Name(string imy)
+        public string name;
+        public string surname;
+        public Singer(string firstname,string lastname)
         {
-            string firstname = "";
-            if (!string.IsNullOrEmpty(imy))
-            {
-                firstname = imy;
-            }
-            return firstname;
+            name = firstname;
+            surname = lastname;
         }
-        public string Surname(string fam)
+        public void GetАutograph(string name,string surname)
         {
-            string lastname = "";
-            if (!string.IsNullOrEmpty(fam))
-            {
-                lastname = fam;
-            }
-            return lastname;
-        }
-        public void GetАutograph(string firstname)
-        {
-            System.Console.WriteLine($"{firstname}, with best wishes");
+            System.Console.WriteLine($"{name},{surname} with best wishes");
         }
     }
 }

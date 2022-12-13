@@ -10,9 +10,9 @@ namespace OOPdz // Note: actual namespace depends on the project name.
     {
         static void Main(string[] args)
         {
-            Singer result = new Singer();
-            result.Name("Artyom");
-            result.GetАutograph("Artyom");
+            Singer result = new Singer("Artyom","Shevchik");
+
+            result.GetАutograph("Artyom","Shevchik");
 
         }
     }
