@@ -5,12 +5,12 @@ namespace consoleapplication.MyClasses // Note: actual namespace depends on the 
     {
         public string name;
         public string surname;
-        public Singer(string firstname,string lastname)
+        public Singer()
         {
-            name = firstname;
-            surname = lastname;
+            name = "Artyom";
+            surname = "Shevchik";
         }
-        public void GetАutograph(string name,string surname)
+        public void GetАutograph()
         {
             System.Console.WriteLine($"{name},{surname} with best wishes");
         }
