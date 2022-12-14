@@ -39,6 +39,8 @@ namespace consoleapplication // Note: actual namespace depends on the project na
             Vlidator itog3 = new Vlidator();
             System.Console.WriteLine(itog3.IsEmail());
             System.Console.WriteLine(itog3.IsUrl());
+            System.Console.WriteLine(itog3.IsDate());
+            System.Console.WriteLine(itog3.IsPhone());
         }
     }
 }
