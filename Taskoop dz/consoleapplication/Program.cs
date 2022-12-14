@@ -19,7 +19,11 @@ namespace consoleapplication // Note: actual namespace depends on the project na
         {
             Singer result = new Singer();
             result.GetАutograph();
-            
+            WordString itog = new WordString();
+            System.Console.WriteLine(itog.ReverseString());
+            System.Console.WriteLine(itog.UpperFirst());
+            System.Console.WriteLine(itog.UpperEvery());
+
         }
     }
 }
