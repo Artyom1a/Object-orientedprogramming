@@ -38,6 +38,7 @@ namespace consoleapplication // Note: actual namespace depends on the project na
             System.Console.WriteLine(Fibonacci.ResultFibonacci(3, 5));
             Vlidator itog3 = new Vlidator();
             System.Console.WriteLine(itog3.IsEmail());
+            System.Console.WriteLine(itog3.IsUrl());
         }
     }
 }
