@@ -25,6 +25,8 @@ namespace consoleapplication // Note: actual namespace depends on the project na
             System.Console.WriteLine(itog.UpperEvery());
             MathСalculation itog1 = new MathСalculation();
             System.Console.WriteLine(MathСalculation.Get(5, 5, -18, 12));
+            Fibonacci itog2 = new Fibonacci();
+            System.Console.WriteLine(Fibonacci.ResultFibonacci(3, 5));
         }
     }
 }
