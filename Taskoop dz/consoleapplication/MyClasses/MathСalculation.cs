@@ -1,4 +1,4 @@
-﻿//1. Реализуйте класс Singer, который будет иметь следующие свойства: name,
+//1. Реализуйте класс Singer, который будет иметь следующие свойства: name,
 // surname. Также класс должен иметь метод GetАutograph (), который будет
 // выводить "{Name} {Surname}, с наилучшими пожеланиями”.
 // 2. Реализуйте класс WordString+, который будет иметь следующие методы: +метод
@@ -9,23 +9,26 @@
 // положительных чисел. Проверки.
 
 
-using consoleapplication.MyClasses;
-
-namespace consoleapplication // Note: actual namespace depends on the project name.
+namespace consoleapplication.MyClasses
 {
-    internal class Program
+    public class MathСalculation
     {
-        static void Main(string[] args)
+        int perem;
+        public MathСalculation()
         {
-            Singer result = new Singer();
-            result.GetАutograph();
-            WordString itog = new WordString();
-            System.Console.WriteLine(itog.ReverseString());
-            System.Console.WriteLine(itog.UpperFirst());
-            System.Console.WriteLine(itog.UpperEvery());
-            MathСalculation itog1 = new MathСalculation();
-            System.Console.WriteLine(MathСalculation.Get(5, 5, -18, 12));
+            System.Console.WriteLine("Class MathCalculation");
+        }
+        public static int Get(params int[] perem)
+        {
+            int x = 0;
+            for (int i = 0; i < perem.Length; i++)
+            {
+                if (perem[i] > 0)
+                {
+                    x += perem[i];
+                }
+            }
+            return x;
         }
     }
 }
-
