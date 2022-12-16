@@ -84,6 +84,8 @@ namespace TaskOOP2 // Note: actual namespace depends on the project name.
                 Random rnd = new Random();
                 array[i].TakeBook(rnd.Next(1, 10));
                 array[i].ReturnBook(rnd.Next(1, 10));
+                System.Console.WriteLine(array[i].TakeBook("Books1", "Books2"));
+                System.Console.WriteLine(array[i].ReturnBook("Books3", "Books5"));
             }
 
         }
