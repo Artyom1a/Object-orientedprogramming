@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "consoleapplication", "conso
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "consoleapplication", "Taskoopdz\consoleapplication.csproj", "{02B5E021-B2EF-4F1E-974E-43C83EA5D856}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "consoleapplication", "TASKOOP2\consoleapplication.csproj", "{60D8698C-F38A-4576-A6BD-306AE5B052AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{02B5E021-B2EF-4F1E-974E-43C83EA5D856}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02B5E021-B2EF-4F1E-974E-43C83EA5D856}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02B5E021-B2EF-4F1E-974E-43C83EA5D856}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60D8698C-F38A-4576-A6BD-306AE5B052AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60D8698C-F38A-4576-A6BD-306AE5B052AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60D8698C-F38A-4576-A6BD-306AE5B052AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60D8698C-F38A-4576-A6BD-306AE5B052AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
