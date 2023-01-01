@@ -27,7 +27,7 @@ public class ServerGetAll
     private User[] User;
     public ServerGetAll()
     {
-        User[] User = new User[4];
+        User = new User[4];
 
         User[0] = new User() { Id = 1, Name = "Yesenia", Age = 22 };
         User[1] = new User() { Id = 2, Name = "Hanna", Age = 22 };
