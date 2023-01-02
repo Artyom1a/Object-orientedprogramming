@@ -9,10 +9,10 @@ namespace NewCalculator // Note: actual namespace depends on the project name.
     {
         static void Main(string[] args)
         {
-            ServerGetAll result = new ServerGetAll();
-            result.Controller();
-            // ServerByld result1 = new ServerByld(); 
-            // result1.Controller(3);
+            // ServerGetAll result = new ServerGetAll();
+            // result.Controller();
+            ServerByld result1 = new ServerByld(); 
+            result1.Controller(3);
         }
     }
 }
