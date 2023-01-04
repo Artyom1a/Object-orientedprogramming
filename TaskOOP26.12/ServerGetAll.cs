@@ -50,7 +50,12 @@ public class ServerGetAll
     }
     private User[] Repository()
     {
+        for (int i = 0; i < User.Length; i++)
+        {
+            System.Console.WriteLine(string.Join(',', User[i]));
+        }
         return User;
+
     }
 
 }
