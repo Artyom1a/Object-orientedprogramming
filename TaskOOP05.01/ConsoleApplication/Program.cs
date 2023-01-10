@@ -6,7 +6,8 @@ using EmployeeWork;
 using ShiftSupervisorWork;
 using CustomerWork;
 using SingerWork;
-using CircleWork;
+using FigureWork;
+// using CircleWork;
 
 namespace MyApp // Note: actual namespace depends on the project name.
 {
@@ -54,14 +55,27 @@ namespace MyApp // Note: actual namespace depends on the project name.
             // int stavkahr = Convert.ToInt32(Console.ReadLine());
             // productionWorker.Giveinarray(id, name, idsmen, stavkahr);
             // productionWorker.Vyvod();
-            ShiftSupervisor shiftsupervisor = new ShiftSupervisor("Svetoslav", 1, 120000, 12);
-            shiftsupervisor.ItogPremy();
-            Customer customer = new Customer("37529333333", false);
-            customer.Print();
-            Singer singer = new Singer(22, "2000-11-11", "Piano", "Evgen", "Drozd");
-            singer.GetMoreInfo();
-            Circle circle = new Circle("Raschet",0,0,3);
-            circle.Area();
+            // ShiftSupervisor shiftsupervisor = new ShiftSupervisor("Svetoslav", 1, 120000, 12);
+            // shiftsupervisor.ItogPremy();
+            // Customer customer = new Customer("37529333333", false);
+            // customer.Print();
+            // Singer singer = new Singer(22, "2000-11-11", "Piano", "Evgen", "Drozd");
+            // singer.GetMoreInfo();
+            // Figure figure = new Figure("null");
+            // figure.Square();
+
+            Figure[] array = new Figure[3]
+            {
+            new Rectangle("one", 5, 10),
+            new Triangle("triangle", 3, 4, 5),
+            new Circle("circle", 13)
+            };
+            int number = 0;
+            while(number<array.Length)
+            {
+                array[number].Square();
+                number ++;
+            }
 
         }
     }
