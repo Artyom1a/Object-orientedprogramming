@@ -17,6 +17,11 @@ public class Triangle : Figure
     {
         double p = (SideA + SideB + SideC) / 2;
         double square = Math.Sqrt(p * (p - SideA) * (p - SideB) * (p - SideC));
-        System.Console.WriteLine($"Rectangle {Name} square = {square}");
+        System.Console.WriteLine($"{this.ToString()} square = {square}");
+    }
+
+    public override string ToString()
+    {
+        return $"Triangle {Name}";
     }
 }

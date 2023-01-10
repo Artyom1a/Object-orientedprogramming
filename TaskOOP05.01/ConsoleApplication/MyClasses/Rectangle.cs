@@ -12,7 +12,11 @@ public class Rectangle : Figure
     }
     public override void Square()
     {
-        double square = WidthA*WidthB;
-        System.Console.WriteLine($"Rectangle {Name} square = {square}");
+        double square = WidthA * WidthB;
+        System.Console.WriteLine($"{this} square = {square}");
+    }
+    public override string ToString()
+    {
+        return $"Rectangle {Name}";
     }
 }
