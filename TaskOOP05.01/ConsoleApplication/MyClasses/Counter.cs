@@ -1,9 +1,9 @@
-// Описать класс, реализующий десятичный счетчик, который может увеличивать
+//  Описать класс, реализующий десятичный счетчик, который может увеличивать
 // или уменьшать свое значение на единицу в заданном диапазоне. Предусмотреть
 // инициализацию счетчика значениями по умолчанию и произвольными
-// значениями. Счетчик имеет два метода: увеличения и уменьшения, и свойство,
+// значениями. Счетчик имеет два метода: увеличения и уменьшения, — и свойство,
 // позволяющее получить его текущее состояние. Написать программу,
-// демонстрирующую все возможности класса.
+// демонстрирующую все возможности класса. 
 
 namespace Incapsulation;
 
@@ -13,22 +13,18 @@ public class Counter
     private int Min;
     private int Max;
 
-    public Counter()
-    {
-
-    }
-    public Counter(int num = 5, int min = 0, int max = 0)
+    public Counter(int num = 5, int min = 0, int max = 100)
     {
         Num = num;
         Min = min;
         Max = max;
         if (min > max)
         {
-            System.Console.WriteLine("error min max value");
+            Console.WriteLine("error min max value");
         }
         if (num < min || num > max)
         {
-            System.Console.WriteLine("error counter");
+            Console.WriteLine("error counter");
         }
     }
 
@@ -39,9 +35,9 @@ public class Counter
             Num++;
         }
     }
-    public void Decriment()
+    public void Decrement()
     {
-        if (Num >= Min)
+        if (Num > Min)
         {
             Num--;
         }
