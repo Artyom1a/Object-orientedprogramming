@@ -1,6 +1,8 @@
 ﻿
 using MyClasses.Cars;
 using MyClasses.Transport;
+using Times;
+using PaymentSystems;
 
 
 namespace MyApp // Note: actual namespace depends on the project name.
@@ -47,6 +49,32 @@ namespace MyApp // Note: actual namespace depends on the project name.
             // Transport transportCar = new Car();
             // System.Console.WriteLine(transportCar.Name);
             // transportCar.Moving();
+
+            // Time time = new Time(13,39,46);
+            // System.Console.WriteLine(time.TimeNow());
+            // time.TimeCorrectHour(18);
+            // System.Console.WriteLine(time.TimeNow());
+
+            PaymentTerminal terminal = new PaymentTerminal("terminal");
+            Visa dima = new Visa("001", 1);
+            terminal.SetMoneyByPaymentSystem(10, dima);
+            dima.SetMoney(100);
+            terminal.SetMoneyByPaymentSystem(10, dima);
+            Console.WriteLine(dima);
+            Console.WriteLine();
+            Console.WriteLine(dima.GetHistory());
+            Console.WriteLine();
+            Console.WriteLine(terminal);
+            Console.WriteLine();
+            UnionPay artem = new UnionPay("002", 1);
+            artem.SetMoney(15000);
+            terminal.SetMoneyByPaymentSystem(15000, artem);
+            terminal.SetMoneyByPaymentSystem(10000, artem);
+            Console.WriteLine(artem);
+            Console.WriteLine();
+            Console.WriteLine(artem.GetHistory());
+            Console.WriteLine();
+            Console.WriteLine(terminal);
         }
     }
 }
