@@ -7,7 +7,7 @@ public class Transport
 
     public Transport()
     {
-        
+
     }
 
     public Transport(double spead, string name) : this(name)
@@ -24,7 +24,7 @@ public class Transport
         System.Console.WriteLine($"Transport {Name} is moving");
     }
 
-    public  void Stopping()
+    public void Stopping()
     {
         System.Console.WriteLine($"{Name} is stopping");
     }

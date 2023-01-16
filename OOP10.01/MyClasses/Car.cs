@@ -11,7 +11,7 @@ public class Car : MyClasses.Transport.Transport
     }
 
     public int Type { get; set; }
-    public Car()
+    public      Car()
     {
 
     }
