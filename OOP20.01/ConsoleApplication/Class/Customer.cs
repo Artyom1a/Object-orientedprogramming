@@ -10,22 +10,45 @@ namespace Customers
 {
     public class Customer : ICustomers
     {
-        public string Name;
-        public string Surname;
-
-        public Customer(string name, string surname)
+        public string CustomerName;
+        public string CustomerSurname;
+        string ICustomers.Name
         {
-            Name = name;
-            Surname = surname;
+            set
+            {
+                CustomerName = value;
+            }
+            get
+            {
+                return CustomerName;
+            }
+        }
+        string ICustomers.Surname
+        {
+            set
+            {
+                CustomerSurname = value;
+            }
+            get
+            {
+                return CustomerSurname;
+            }
         }
 
+        public Customer(string customerName, string customerSurname)
+        {
+            CustomerName = customerName;
+            CustomerSurname = customerSurname;
+        }
 
         public void CallCustomer()
         {
-            System.Console.WriteLine($"{Name} {Surname}");
+            System.Console.WriteLine($"{CustomerName} {CustomerSurname}");
         }
     }
 
 }
+
+
 
 
