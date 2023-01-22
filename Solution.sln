@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication", "TaskO
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication", "OOP10.01\ConsoleApplication.csproj", "{2B08DD08-AD68-49F3-8F4D-DA9387571489}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication", "OOP14.01\ConsoleApplication.csproj", "{FBFC25BF-7533-4461-AE93-9B24297E2486}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,5 +62,9 @@ Global
 		{2B08DD08-AD68-49F3-8F4D-DA9387571489}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B08DD08-AD68-49F3-8F4D-DA9387571489}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B08DD08-AD68-49F3-8F4D-DA9387571489}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBFC25BF-7533-4461-AE93-9B24297E2486}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBFC25BF-7533-4461-AE93-9B24297E2486}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBFC25BF-7533-4461-AE93-9B24297E2486}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBFC25BF-7533-4461-AE93-9B24297E2486}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
