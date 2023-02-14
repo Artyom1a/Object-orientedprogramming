@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSystem", "OOP04.02\File
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestLibrary", "OOP04.02\TestLibrary\TestLibrary.csproj", "{DB10863A-7E10-4498-BA26-AD5C5A05FA3F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "OOP12.02JSON\ConsoleApp1.csproj", "{4351CAE3-E75E-49CC-ABAD-F3734D3594D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -128,6 +130,10 @@ Global
 		{DB10863A-7E10-4498-BA26-AD5C5A05FA3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB10863A-7E10-4498-BA26-AD5C5A05FA3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB10863A-7E10-4498-BA26-AD5C5A05FA3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4351CAE3-E75E-49CC-ABAD-F3734D3594D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4351CAE3-E75E-49CC-ABAD-F3734D3594D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4351CAE3-E75E-49CC-ABAD-F3734D3594D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4351CAE3-E75E-49CC-ABAD-F3734D3594D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{01FE569A-B4B0-4CFF-A7AA-74B25BBDBA0C} = {4891B24F-7779-4AF0-9D6C-2482B892377B}
