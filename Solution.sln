@@ -61,6 +61,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "OOPList0503\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "OOP01.03Extensions\ConsoleApp1.csproj", "{A5B76251-5BF7-4F7C-AB33-99916D356D63}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "DB02.03\ConsoleApp1.csproj", "{01830E21-3643-4F71-A129-A65FCD5BEB07}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -182,6 +184,10 @@ Global
 		{A5B76251-5BF7-4F7C-AB33-99916D356D63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5B76251-5BF7-4F7C-AB33-99916D356D63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5B76251-5BF7-4F7C-AB33-99916D356D63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01830E21-3643-4F71-A129-A65FCD5BEB07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01830E21-3643-4F71-A129-A65FCD5BEB07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01830E21-3643-4F71-A129-A65FCD5BEB07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01830E21-3643-4F71-A129-A65FCD5BEB07}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{01FE569A-B4B0-4CFF-A7AA-74B25BBDBA0C} = {4891B24F-7779-4AF0-9D6C-2482B892377B}
