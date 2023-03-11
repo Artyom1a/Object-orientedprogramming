@@ -23,5 +23,17 @@ namespace ConsoleApp1
         else
             { Console.WriteLine("This is not polindrom"); }
         }
+
+        public int Task5(int a, int b)
+        {
+            return a * b;
+        }
+
+        public int Task6(int a, int b,int c)
+        {
+            int result1=Math.Min(a,b);
+            int result2=Math.Min(result1,c); 
+            return result2;
+        }
     }
 }
