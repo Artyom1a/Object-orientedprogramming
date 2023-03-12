@@ -30,16 +30,38 @@ namespace ConsoleApp1
                 {
                     result++;
                 }
-               
+
             }
             return result;
         }
 
-        public void Task8(int a)
+        public void Task9(int a, int b)
         {
-            DateTime date1 = new DateTime(2023, 3, 13, 16, 32, 23); // 13.03.2023 16:32:23
-            date1= date1.AddYears(-a); 
-            Console.WriteLine(date1.Year);
+            int nod = 1;
+
+            while (a != 0 && b != 0)
+            {
+                if (a > b)
+                {
+                    a %= b;
+                }
+                else
+                {
+                    b %= a;
+                }
+            }
+            if (a == 0)
+            {
+                nod = b;
+            }
+            else if (b == 0)
+            {
+                nod = a;
+            }
+
+            Console.WriteLine($"NOD {nod}");
         }
+
+
     }
 }
