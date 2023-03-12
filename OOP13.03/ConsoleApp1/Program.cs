@@ -94,7 +94,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
 
             //Task7_9Part1 task7_9Part1 = new Task7_9Part1();
             //string a = Console.ReadLine();
-            
+
 
             //if (a != null )
             //{
@@ -118,18 +118,27 @@ namespace MyApp // Note: actual namespace depends on the project name.
 
             //9. Напишите программу, которая запрашивает у пользователя два числа и находит
             //их наибольший общий делитель
-            Console.WriteLine("Task9");
-            Task7_9Part1 task7_9Part1 = new Task7_9Part1();
+            //Console.WriteLine("Task9");
+            //Task7_9Part1 task7_9Part1 = new Task7_9Part1();
 
-            string a = Console.ReadLine();
-            bool b = int.TryParse(a, out int c);
-            string f = Console.ReadLine();
-            bool d = int.TryParse(f, out int e);
+            //string a = Console.ReadLine();
+            //bool b = int.TryParse(a, out int c);
+            //string f = Console.ReadLine();
+            //bool d = int.TryParse(f, out int e);
 
-            if  (b && d && c != null && e != null)
-            {
-                task7_9Part1.Task9(c,e);
-            }
+            //if  (b && d && c != null && e != null)
+            //{
+            //    task7_9Part1.Task9(c,e);
+            //}
+
+            //10. Напишите программу, которая генерирует случайное число от 1 до 100 и
+            // предлагает пользователю угадать это число, давая подсказки(больше/ меньше),
+            //если введенное число не совпадает с загаданным
+            Console.WriteLine("Task10");
+            Task10_12Part1 task10_12Part1 = new Task10_12Part1();
+            
+            task10_12Part1.Task10();
+            
 
         }
     }
