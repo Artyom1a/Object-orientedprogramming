@@ -104,17 +104,33 @@ namespace MyApp // Note: actual namespace depends on the project name.
 
             //8. Напишите программу, которая запрашивает у пользователя год рождения и
             //выводит его возраст на текущую дату.
-            Console.WriteLine("Task8");
+            //Console.WriteLine("Task8");
 
+            //Task7_9Part1 task7_9Part1 = new Task7_9Part1();
+
+            //string a = Console.ReadLine();
+            //bool b = int.TryParse(a, out int c);
+
+            //if (b && c != null)
+            //{
+            //    task7_9Part1.Task8(c);
+            //}
+
+            //9. Напишите программу, которая запрашивает у пользователя два числа и находит
+            //их наибольший общий делитель
+            Console.WriteLine("Task9");
             Task7_9Part1 task7_9Part1 = new Task7_9Part1();
 
             string a = Console.ReadLine();
             bool b = int.TryParse(a, out int c);
+            string f = Console.ReadLine();
+            bool d = int.TryParse(f, out int e);
 
-            if (b && c != null)
+            if  (b && d && c != null && e != null)
             {
-                task7_9Part1.Task8(c);
+                task7_9Part1.Task9(c,e);
             }
+
         }
     }
 }
