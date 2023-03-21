@@ -32,5 +32,30 @@ namespace ConsoleApp1
                 Console.WriteLine("random number ==your number");
             }
         }
+
+        public bool Task11(int a)
+        {
+            if (a == 1) return false;
+
+            int b = (int)Math.Floor(Math.Sqrt(a));
+
+           for(int i =2; i<= b;i++)
+            {
+                if (a % i == 0) return false;
+            }
+            return true;
+
+        }
+
+
+        
+
+        }
+
+
+
+
+
+
+
     }
-}
