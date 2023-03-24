@@ -23,21 +23,19 @@ namespace ConsoleApp1
                 listb.Add(a[j]);
             }
 
-
-            if (lista.SequenceEqual(listb))
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+            return lista.SequenceEqual(listb);
         }
 
         public void Task20(string a)
         {
             a = a.Replace(" ", "");
             Console.WriteLine("String without probels: " + a);
+        }
+
+        public void Task21(string a)
+        {
+            a = a.Replace(" ", "_");
+            Console.WriteLine("String without probels and with _: " + a);
         }
     }
 }
