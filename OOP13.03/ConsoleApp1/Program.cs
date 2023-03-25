@@ -134,11 +134,122 @@ namespace MyApp // Note: actual namespace depends on the project name.
             //10. Напишите программу, которая генерирует случайное число от 1 до 100 и
             // предлагает пользователю угадать это число, давая подсказки(больше/ меньше),
             //если введенное число не совпадает с загаданным
-            Console.WriteLine("Task10");
-            Task10_12Part1 task10_12Part1 = new Task10_12Part1();
-            
-            task10_12Part1.Task10();
-            
+            //Console.WriteLine("Task10");
+            //Task10_12Part1 task10_12Part1 = new Task10_12Part1();
+
+            //task10_12Part1.Task10();
+
+
+            //11.Напишите программу, которая находит все простые числа от 2 до N, где N число,
+            //введенное пользователем.
+            //Console.WriteLine("Task11");
+            //Task10_12Part1 task10_12Part1 = new Task10_12Part1();
+            //Console.Write("Write a number: ");
+            //string a = Console.ReadLine();
+            //bool b = int.TryParse(a, out int c);
+            //if (b && c != null)
+            //{
+            //    for (int i = 2; i < c; i++)
+            //    {
+            //        if (task10_12Part1.Task11(i))
+            //            Console.Write(i + " ");
+            //    }
+            //}
+
+            //12-17 пропущены
+
+            //18.Напишите программу, которая выводит заданную строку задом наперед
+
+            //Console.WriteLine("Task18");
+            //Task16_18Part1 task16_18Part1 = new Task16_18Part1();
+            //Console.Write("Write a string: ");
+            //string a = Console.ReadLine();
+            //if (!string.IsNullOrEmpty(a))
+            //{
+            //    for (int i = 0; i < task16_18Part1.Task18(a).Count(); i++)
+            //    {
+            //        Console.Write(task16_18Part1.Task18(a)[i]);
+            //    }
+
+            //}
+
+
+            //19.  Напишите программу, которая определяет, является ли заданная строка
+            //палиндромом.
+            //Console.WriteLine("Task19");
+            //Task19_21Part1 task19_21Part1 = new Task19_21Part1();
+            //Console.Write("Write a string: ");
+            //string a = Console.ReadLine();
+            //if (!string.IsNullOrEmpty(a))
+            //{
+            //    if (task19_21Part1.Task19(a))
+            //    {
+            //        Console.WriteLine("This is string is palindrom");
+            //    }
+            //    else { Console.WriteLine("This is string is not palindrom"); }
+            //}
+
+            //            20.
+            //Напишите программу, которая удаляет все пробелы из заданной строки.
+            //Console.WriteLine("Task20");
+            //Task19_21Part1 task19_21Part1 = new Task19_21Part1();
+            //Console.Write("Write a string: ");
+            //string a = Console.ReadLine();
+            //if (!string.IsNullOrEmpty(a))
+            //{
+            //    task19_21Part1.Task20(a);
+            //}
+
+            //            21.
+            //Напишите программу, которая заменяет все пробелы в заданной строке
+            //символом подчеркивания.
+            //Console.WriteLine("Task21");
+            //Task19_21Part1 task19_21Part1 = new Task19_21Part1();
+            //Console.Write("Write a string: ");
+            //string a = Console.ReadLine();
+            //if (!string.IsNullOrEmpty(a))
+            //{
+            //    task19_21Part1.Task21(a);
+            //}
+            //            22.
+            //Напишите программу, которая находит количество гласных букв в заданной
+            //строке.
+            //Console.WriteLine("Task22");
+            //Task22_24Part1 task22_24Part1 = new Task22_24Part1();
+            //Console.Write("Write a string: ");
+            //string a = Console.ReadLine();
+            //if (!string.IsNullOrEmpty(a))
+            //{
+            //    Console.WriteLine(task22_24Part1.Task22(a));
+            //}
+
+
+            //            23.
+            //Напишите программу, которая находит количество слов в заданной строке.
+
+            //Console.WriteLine("Task23");
+            //Task22_24Part1 task22_24Part1 = new Task22_24Part1();
+            //Console.Write("Write a string: ");
+            //string a = Console.ReadLine();
+            //if (!string.IsNullOrEmpty(a))
+            //{
+            //    Console.WriteLine(task22_24Part1.Task23(a));
+            //}
+
+            //            24.
+            //Напишите программу, которая находит длину самого длинного слова в заданной
+            //строке.
+
+            Console.WriteLine("Task24");
+            Task22_24Part1 task22_24Part1 = new Task22_24Part1();
+            Console.Write("Write a string: ");
+            string a = Console.ReadLine();
+            if (!string.IsNullOrEmpty(a))
+            {
+                Console.WriteLine(task22_24Part1.Task24(a));
+            }
+
+
 
         }
     }
