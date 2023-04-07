@@ -108,6 +108,8 @@ namespace MyApp // Note: actual namespace depends on the project name.
             var orderGroupChars = groupsCharArrays.OrderByDescending(x => x.Count());
             var firstGroupChar = orderGroupChars.FirstOrDefault();
             Console.WriteLine(firstGroupChar.Key);
+
+
         }
     }
 }
