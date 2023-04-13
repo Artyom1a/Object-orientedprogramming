@@ -96,10 +96,20 @@ namespace MyApp // Note: actual namespace depends on the project name.
 
             //11.Объединить два массива и удалить все дубликаты. (linq)
 
-            List<int> array = new List<int> { 7, 3, 3, 4, 5, 11, 1, 8, 0, 0 };
-            List<int> array1 = new List<int> { 7, 3, 3, 4, 5, 11, 1, 8, 0, 33 };
+            //List<int> array = new List<int> { 7, 3, 3, 4, 5, 11, 1, 8, 0, 0 };
+            //List<int> array1 = new List<int> { 7, 3, 3, 4, 5, 11, 1, 8, 0, 33 };
 
-            Console.WriteLine(string.Join(",", array.Union(array1)));
+            //Console.WriteLine(string.Join(",", array.Union(array1)));
+
+
+            string text = "//11.Объeeeeeeeeeдинить два массива и удалить все дубликаты. (linq)";
+            var textCharArrays= text.ToLower().ToCharArray();
+            var groupsCharArrays = textCharArrays.GroupBy(x => x);
+            var orderGroupChars = groupsCharArrays.OrderByDescending(x => x.Count());
+            var firstGroupChar = orderGroupChars.FirstOrDefault();
+            Console.WriteLine(firstGroupChar.Key);
+
+
         }
     }
 }
