@@ -1,5 +1,6 @@
 ﻿using System;
 
+
 namespace MyApp // Note: actual namespace depends on the project name.
 {
     internal class Program
@@ -9,16 +10,14 @@ namespace MyApp // Note: actual namespace depends on the project name.
             //            1.
             //Напишите программу, которая создает 10 задач и запускает их параллельно.
             //Каждая задача должна выводить в консоль свой порядковый номер.
-            
-            List<Task> tasks = new List<Task>();
 
-            
             for (int i = 0; i < 10; i++)
             {
                 tasks.Add(TaskMethod(i));
 
             }
             Task.WaitAll(tasks.ToArray());
+
 
 
         }
@@ -28,5 +27,6 @@ namespace MyApp // Note: actual namespace depends on the project name.
             await Task.Delay(100);
             Console.WriteLine($"Method  {number} finished...");
         }
+
     }
 }
